@@ -1,0 +1,32 @@
+Enter no. of epochs: 8
+Found 8723 images belonging to 6 classes.
+Found 2178 images belonging to 6 classes.
+WARNING:tensorflow:sample_weight modes were coerced from
+  ...
+    to  
+  ['...']
+WARNING:tensorflow:sample_weight modes were coerced from
+  ...
+    to  
+  ['...']
+Train for 349 steps, validate for 88 steps
+Epoch 1/8
+349/349 [==============================] - 43s 122ms/step - loss: 0.8316 - accuracy: 0.6918 - val_loss: 0.4713 - val_accuracy: 0.8535
+Epoch 2/8
+349/349 [==============================] - 44s 127ms/step - loss: 0.4149 - accuracy: 0.8582 - val_loss: 0.3596 - val_accuracy: 0.8687
+Epoch 3/8
+349/349 [==============================] - 54s 154ms/step - loss: 0.3273 - accuracy: 0.8880 - val_loss: 0.2562 - val_accuracy: 0.9164
+Epoch 4/8
+349/349 [==============================] - 48s 137ms/step - loss: 0.2627 - accuracy: 0.9084 - val_loss: 0.2337 - val_accuracy: 0.9275
+Epoch 5/8
+349/349 [==============================] - 53s 152ms/step - loss: 0.2238 - accuracy: 0.9235 - val_loss: 0.1964 - val_accuracy: 0.9298
+Epoch 6/8
+349/349 [==============================] - 53s 153ms/step - loss: 0.1968 - accuracy: 0.9324 - val_loss: 0.1535 - val_accuracy: 0.9435
+Epoch 7/8
+349/349 [==============================] - 52s 150ms/step - loss: 0.1781 - accuracy: 0.9327 - val_loss: 0.1530 - val_accuracy: 0.9495
+Epoch 8/8
+349/349 [==============================] - 51s 147ms/step - loss: 0.1441 - accuracy: 0.9485 - val_loss: 0.1335 - val_accuracy: 0.9573
+
+[[0. 0. 1. 0. 0. 0.]] (This is categorical classifying of the test image. Classes are mapped as below.) 
+
+['freshapples', 'rottenapples', 'freshoranges', 'rottenbanana', 'rottenoranges', 'freshbanana']
