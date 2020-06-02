@@ -7,7 +7,7 @@ import re
 
 app = Flask(
     __name__,
-    static_folder='/mnt/windowsDrive_D/Code Repository/fruity_react/build',
+    static_folder='/build',
     static_url_path='/')
 CORS(app)
 
